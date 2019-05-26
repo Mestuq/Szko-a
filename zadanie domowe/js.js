@@ -30,10 +30,10 @@ function decide()
     
     var str="Czy twoja liczba jest ";
     if(gr)
-        str+="większa od ";
+        str+="<u>większa</u> bądź równa ";
     else 
-        str+="mniejsza od ";
-    str+=hlf;
+        str+="<u>mniejsza</u> bądź równa ";
+    str+=hlf+"?";
     document.getElementById("txt").innerHTML = str;
 }
 
