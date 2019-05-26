@@ -1,0 +1,75 @@
+html, body, div
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none; 
+
+}
+.logo
+{
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+    background-color: #0e46a0;
+    padding: 1vw 0.5vw;
+}
+.logo > img
+{
+    margin: 1vw;
+    height: 5vw;
+    width: auto;
+}
+.menu
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0e46a0;
+    font-size: 2vw;
+    margin-top: 5vw;
+    text-align: center;
+}
+.wybor
+{
+    text-align: center;
+}
+.game
+{
+    visibility: hidden;
+}
+.bttn 
+{
+    cursor: pointer;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+    font-size: 51px;
+    background: #0e46a0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.txt
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0e46a0;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 10vw;
+}
+.how
+{
+    margin-top: 1vw;
+    width: 100%;
+    color: #0e46a0;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
