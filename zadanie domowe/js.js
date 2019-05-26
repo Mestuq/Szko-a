@@ -58,5 +58,5 @@ function koniec()
     document.getElementById("menu").style.visibility = "visible";
     document.getElementById("game").style.visibility = "hidden";
     document.getElementById("new").innerHTML = "twoja liczba to " + Math.round( (min+max)/2 ) ;
-    document.getElementById("del").innerHTML = " koniec ";
+    document.getElementById("del").innerHTML = " Jeszcze raz! ";
 }
