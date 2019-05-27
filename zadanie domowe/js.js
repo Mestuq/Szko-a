@@ -25,7 +25,7 @@ function decide()
     document.getElementById("how").innerHTML="minimum: "+min+" maksimum:"+max;
 
     gr=!gr;
-    hlf=Math.round(min+((max-min)/2));
+    hlf=min+((max-min)/2);
     
     
     var str="Czy twoja liczba jest ";
@@ -33,7 +33,7 @@ function decide()
         str+="<u>większa</u> bądź równa ";
     else 
         str+="<u>mniejsza</u> bądź równa ";
-    str+=hlf+"?";
+    str+=Math.round(hlf)+"?";
     document.getElementById("txt").innerHTML = str;
 }
 
